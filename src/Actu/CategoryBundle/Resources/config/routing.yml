@@ -1,0 +1,19 @@
+actu_category_homepage:
+    path:     /
+    defaults: { _controller: ActuCategoryBundle:Default:index }
+
+actu_category_create:
+    path:     /create
+    defaults: { _controller: ActuArticleBundle:Default:create }
+
+actu_category_retrieve:
+    path:     /retrieve
+    defaults: { _controller: ActuArticleBundle:Default:retrieve }
+
+actu_category_update:
+    path:     /update
+    defaults: { _controller: ActuArticleBundle:Default:update }
+
+actu_acategory_delete:
+    path:     /delete
+    defaults: { _controller: ActuArticleBundle:Default:delete }
