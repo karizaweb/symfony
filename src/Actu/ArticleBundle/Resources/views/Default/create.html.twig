@@ -2,5 +2,9 @@
 
 {% block body %}
     <h1>Créer un article </h1>
+    {{ form_start(form) }}
+    {{ form_errors(form) }}
+    {{ form_start(form) }}
+    {{ form_end(form) }}
 {% endblock %}
 
